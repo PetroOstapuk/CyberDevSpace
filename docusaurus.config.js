@@ -6,9 +6,9 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
-  url: 'https://your-docusaurus-test-site.com',
+  title: 'CyberDevSpace',
+  tagline: 'Нотатки про технології і саморозвиток.',
+  url: 'http://cyberdev.space:3000',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -16,15 +16,15 @@ const config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'PetroOstapuk', // Usually your GitHub org/user name.
+  projectName: 'CyberDevSpace', // Usually your repo name.
 
   // Even if you don't use internalization, you can use this field to set useful
   // metadata like html lang. For example, if your site is Chinese, you may want
   // to replace "en" with "zh-Hans".
   i18n: {
-    defaultLocale: 'en',
-    locales: ['en'],
+    defaultLocale: 'uk',
+    locales: ['uk', 'en'],
   },
 
   presets: [
@@ -57,21 +57,22 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'My Site',
+        title: 'CyberDevSpace',
         logo: {
           alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          src: 'img/logo.png',
         },
         items: [
           {
             type: 'doc',
             docId: 'intro',
             position: 'left',
-            label: 'Tutorial',
+            label: 'Tutorials',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
+          {to: '/blog', label: 'Блог', position: 'left'},
+          {to: '/AboutMe', label: 'Про автора', position: 'left'},
           {
-            href: 'https://github.com/facebook/docusaurus',
+            href: 'https://github.com/PetroOstapuk/CyberDevSpace',
             label: 'GitHub',
             position: 'right',
           },
@@ -81,11 +82,15 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Docs',
+            title: 'Tutorials',
             items: [
               {
-                label: 'Tutorial',
-                to: '/docs/intro',
+                label: 'Дизайн патерни на PHP',
+                to: '/docs/category/дизайн-патерни-на-php',
+              },
+              {
+                label: 'Чистий код на PHP',
+                to: '/docs/category/дизайн-патерни-на-php',
               },
             ],
           },
@@ -93,8 +98,8 @@ const config = {
             title: 'Community',
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+                label: 'LinkedIn',
+                href: 'https://www.linkedin.com/in/petro-ostapuk/',
               },
               {
                 label: 'Discord',
@@ -107,20 +112,20 @@ const config = {
             ],
           },
           {
-            title: 'More',
+            title: 'Більше',
             items: [
               {
-                label: 'Blog',
+                label: 'Блог',
                 to: '/blog',
               },
               {
                 label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                href: 'https://github.com/PetroOstapuk',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} CyberDevSpace.`,
       },
       prism: {
         theme: lightCodeTheme,
