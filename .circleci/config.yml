@@ -5,8 +5,8 @@ jobs:
     steps:
       - checkout
       - run:
-          name: "Build"
-          command: "ssh $SSH_USER@$SSH_HOST "cd /var/www/production && git checkout ./ && git pull && npm run build""
+        name: "Build"
+        command: "ssh $SSH_USER@$SSH_HOST "cd /var/www/production && git checkout ./ && git pull && npm run build""
 
 workflows:
   say-hello-workflow:
