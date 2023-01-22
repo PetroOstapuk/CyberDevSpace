@@ -13,7 +13,7 @@ export default function AboutMe() {
                     fontSize: '20px',
                 }}>
                 <p>
-                    Про автора.<br/>
+                    Про автора Petro Ostapuk.<br/>
                     Edit <code>pages/AboutMe.js</code> and save to reload.
                 </p>
             </div>
