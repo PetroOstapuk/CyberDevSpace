@@ -1,16 +1,18 @@
 version: 2.1
 
 jobs:
-  run-build:
+  deploy:
+    machine:
+      enabled: true
     steps:
       - run:
-        name: Deploy Over SSH
-        command: |
-          ssh $SSH_USER@$SSH_HOST "cd /var/www/production && git checkout ./ && git pull && npm run build"
+          name: Deploy Over SSH
+          command: ssh $SSH_USER@$SSH_HOST -p 22222 "cd /var/www/production && git checkout ./ && git pull && npm run build"
 
 workflows:
-  build-workflow:
+  build-and-deploy:
     jobs:
-      - run-build:
-        branches:
-          only: main
+      - deploy:
+          filters:
+            branches:
+              only: main
