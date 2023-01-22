@@ -1,16 +1,14 @@
 version: 2.1
 
 jobs:
-  run-build:
+  say-hello:
     steps:
+      - checkout
       - run:
-        name: Deploy Over SSH
-        command: |
-          ssh $SSH_USER@$SSH_HOST "cd /var/www/production && git checkout ./ && git pull && npm run build"
+          name: "Build"
+          command: "ssh $SSH_USER@$SSH_HOST "cd /var/www/production && git checkout ./ && git pull && npm run build""
 
 workflows:
-  build-workflow:
+  say-hello-workflow:
     jobs:
-      - run-build:
-        branches:
-          only: main
+      - say-hello
