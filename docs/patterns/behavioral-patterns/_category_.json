@@ -1,0 +1,8 @@
+{
+  "label": "Поведінкові",
+  "position": 3,
+  "link": {
+    "type": "generated-index",
+    "description": "Патерни проектування на PHP"
+  }
+}
