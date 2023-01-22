@@ -1,5 +1,7 @@
 # Website
 
+[![CircleCI](https://dl.circleci.com/status-badge/img/gh/PetroOstapuk/CyberDevSpace/tree/main.svg?style=svg)](https://dl.circleci.com/status-badge/redirect/gh/PetroOstapuk/CyberDevSpace/tree/main)
+
 This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
 
 ### Installation
