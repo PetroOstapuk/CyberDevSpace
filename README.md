@@ -1,6 +1,8 @@
 # Website
 
-[![CircleCI](https://dl.circleci.com/status-badge/img/gh/PetroOstapuk/CyberDevSpace/tree/main.svg?style=svg)](https://dl.circleci.com/status-badge/redirect/gh/PetroOstapuk/CyberDevSpace/tree/main)
+[![CircleCI](https://dl.circleci.com/status-badge/img/gh/PetroOstapuk/CyberDevSpace/tree/main.svg?style=shield)](http://cyberdev.space)
+
+[![CircleCI](https://dl.circleci.com/insights-snapshot/gh/PetroOstapuk/CyberDevSpace/main/build-and-deploy/badge.svg?window=24h)](https://app.circleci.com/insights/github/PetroOstapuk/CyberDevSpace/workflows/build-and-deploy/overview?branch=main&reporting-window=last-24-hours&insights-snapshot=true)
 
 This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
 
