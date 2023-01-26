@@ -57,7 +57,7 @@ const config = {
         items: [
           {
             type: 'doc',
-            docId: 'intro',
+            docId: 'bookshelf/technical_books',
             position: 'left',
             label: 'Tutorials',
           },
