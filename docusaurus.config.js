@@ -94,12 +94,8 @@ const config = {
                 href: 'https://www.linkedin.com/in/petro-ostapuk/',
               },
               {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
-              },
-              {
                 label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
+                href: 'https://twitter.com/OstapukPetro',
               },
             ],
           },
