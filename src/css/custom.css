@@ -28,3 +28,10 @@
   --ifm-color-primary-lightest: #fbb6ae;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
+
+.main-logo {
+  background-image: url("../../static/img/backgroung_logo.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
