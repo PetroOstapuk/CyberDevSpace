@@ -62,7 +62,7 @@ const config = {
             label: 'Tutorials',
           },
           {to: '/blog', label: 'Блог', position: 'left'},
-          {to: '/AboutMe', label: 'Про автора', position: 'left'},
+          {to: '/about-me', label: 'Про автора', position: 'left'},
           {
             href: 'https://github.com/PetroOstapuk/CyberDevSpace',
             label: 'GitHub',
