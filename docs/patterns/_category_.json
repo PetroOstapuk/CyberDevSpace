@@ -2,7 +2,7 @@
   "label": "Дизайн патерни на PHP",
   "position": 4,
   "link": {
-    "type": "generated-index",
-    "description": "Патерни проектування на PHP"
+    "type": "doc",
+    "id": "intro"
   }
 }
