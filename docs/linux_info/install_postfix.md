@@ -35,6 +35,9 @@ sudo apt install postfix
 # Далі появиться вікно де потрібно підтвердити встановлення і вибрати наступний пункт **Internet site**,
 # після чого в наступному вікні вести доменне ім’я, котре вказує на даний сервер.
 ```
+![Abstract Factory UML](./images/postfix-configuration.png)
+![Abstract Factory UML](./images/internet-site.png)
+![Abstract Factory UML](./images/system-mail-name.png)
 
 Потрібно внести певні налаштування для Postfix.
 ```shell
