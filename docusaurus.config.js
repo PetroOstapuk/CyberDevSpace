@@ -8,7 +8,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/vsDark');
 const config = {
   title: 'CyberDevSpace',
   tagline: 'Нотатки про технології і саморозвиток.',
-  url: 'http://cyberdev.space:3000',
+  url: 'https://cyberdev.space',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
