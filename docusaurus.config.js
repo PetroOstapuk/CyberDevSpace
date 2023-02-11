@@ -78,11 +78,11 @@ const config = {
             items: [
               {
                 label: 'Дизайн патерни на PHP',
-                to: '/docs/patterns/дизайн-патерни-на-php',
+                to: '/docs/patterns/design-patterns-php',
               },
               {
                 label: 'Чистий код на PHP',
-                to: '/docs/patterns/дизайн-патерни-на-php',
+                to: '/docs/patterns/design-patterns-php',
               },
             ],
           },
