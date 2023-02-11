@@ -35,3 +35,8 @@
   background-position: center;
   background-size: cover;
 }
+
+.hero__title{
+  color: #da1f0b;
+  font-size: 4rem;
+}
