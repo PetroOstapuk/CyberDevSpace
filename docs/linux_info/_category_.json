@@ -2,7 +2,7 @@
   "label": "Linux",
   "position": 2,
   "link": {
-    "type": "generated-index",
-    "description": "Збірка перекладів, інструкцій, а також власних досліджень і агрегацій"
+    "type": "doc",
+    "id": "linux_intro"
   }
 }
