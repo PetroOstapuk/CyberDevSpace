@@ -2,7 +2,7 @@
 slug: soft-skills
 title: Soft skills
 authors: [petro_ostapuk]
-tags: [soft-skills]
+tags: [soft skills]
 ---
 # Soft skills
 
