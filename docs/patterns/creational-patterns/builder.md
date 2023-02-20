@@ -6,13 +6,13 @@ sidebar_position: 2
 
 ## Призначення
 
-Будівельник - це інтерфейс для виробництва складних об’єктів.
+Будівельник - це інтерфейс для виробництва складних об'єктів.
 
 Іноді, якщо Будівельник краще знає про те, що він будує, цей інтерфейс може бути абстрактним класом з методами за замовчуванням (адаптер).
 
-Якщо у вас є складне дерево успадкування для об’єктів, логічно мати складне дерево успадкування і їх будівельників.
+Якщо у вас є складне дерево успадкування для об'єктів, логічно мати складне дерево успадкування і їх будівельників.
 
-Примітка: Будівельники можуть мати текучий інтерфейс <https://uk.wikipedia.org/wiki/Fluent_interface>, наприклад, будівельник mock у PHPUnit.
+Примітка: Будівельники можуть мати текучий інтерфейс<https://uk.wikipedia.org/wiki/Fluent_interface>, наприклад, будівельник mock у PHPUnit.
 
 ## Приклади
 
@@ -26,9 +26,7 @@ PHPUnit: Mock Builder
 
 Ви можете знайти цей код на [GitHub](https://github.com/PetroOstapuk/DesignPatternsPHP/tree/main/Creational/Builder)
 
-Director.php
-
-```php
+```php title="Director.php"
 <?php
 
 declare(strict_types=1);
@@ -58,9 +56,7 @@ class Director
 
 ```
 
-Builder.php
-
-```php
+```php title="Builder.php"
 <?php
 
 declare(strict_types=1);
@@ -83,9 +79,7 @@ interface Builder
 }
 ```
 
-TruckBuilder.php
-
-```php
+```php title="TruckBuilder.php"
 <?php
 
 declare(strict_types=1);
@@ -135,9 +129,7 @@ class TruckBuilder implements Builder
 }
 ```
 
-CarBuilder.php
-
-```php
+```php title="CarBuilder.php"
 <?php
 
 declare(strict_types=1);
@@ -186,9 +178,7 @@ class CarBuilder implements Builder
 }
 ```
 
-Parts/Vehicle.php
-
-```php
+```php title="Parts/Vehicle.php"
 <?php
 
 declare(strict_types=1);
@@ -203,9 +193,7 @@ abstract class Vehicle
 }
 ```
 
-Parts/Truck.php
-
-```php
+```php title="Parts/Truck.php"
 <?php
 
 declare(strict_types=1);
@@ -217,9 +205,7 @@ class Truck extends Vehicle
 }
 ```
 
-Parts/Car.php
-
-```php
+```php title="Parts/Car.php"
 <?php
 
 declare(strict_types=1);
@@ -231,9 +217,7 @@ class Car extends Vehicle
 }
 ```
 
-Parts/Engine.php
-
-```php
+```php title="Parts/Engine.php"
 <?php
 
 declare(strict_types=1);
@@ -245,9 +229,7 @@ class Engine
 }
 ```
 
-Parts/Wheel.php
-
-```php
+```php title="Parts/Wheel.php"
 <?php
 
 declare(strict_types=1);
@@ -259,9 +241,7 @@ class Wheel
 }
 ```
 
-Parts/Door.php
-
-```php
+```php title="Parts/Door.php"
 <?php
 
 declare(strict_types=1);
@@ -275,9 +255,7 @@ class Door
 
 ## Тест
 
-Tests/DirectorTest.php
-
-```php
+```php title="Tests/DirectorTest.php"
 <?php
 
 declare(strict_types=1);
