@@ -14,7 +14,7 @@ sidebar_position: 4
 
 ## Діаграма UML
 
-![Builder UML](./images/pool.png)
+![Pool UML](./images/pool.png)
 
 ## Код
 Ви можете знайти цей код на [GitHub](https://github.com/PetroOstapuk/DesignPatternsPHP/tree/main/Creational/Pool)

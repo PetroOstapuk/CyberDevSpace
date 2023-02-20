@@ -16,7 +16,7 @@ sidebar_position: 3
 
 ## Діаграма UML
 
-![Builder UML](./images/factory_method.png)
+![Factory Method UML](./images/factory_method.png)
 
 ## Код
 Ви можете знайти цей код на [GitHub](https://github.com/PetroOstapuk/DesignPatternsPHP/tree/main/Creational/FactoryMethod)
