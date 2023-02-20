@@ -16,8 +16,7 @@ sidebar_position: 1
 
 Ви можете знайти цей код на [GitHub](https://github.com/PetroOstapuk/DesignPatternsPHP/tree/main/Creational/AbstractFactory)
 
-WriterFactory.php
-```php
+```php title="WriterFactory.php"
 <?php
 
 namespace DesignPatterns\Creational\AbstractFactory;
@@ -29,8 +28,7 @@ interface WriterFactory
 }
 ```
 
-CsvWriter.php
-```php
+```php title="CsvWriter.php"
 <?php
 
 namespace DesignPatterns\Creational\AbstractFactory;
@@ -41,8 +39,8 @@ interface CsvWriter
 }
 ```
 
-JsonWriter.php
-```php
+
+```php title="JsonWriter.php"
 <?php
 
 namespace DesignPatterns\Creational\AbstractFactory;
@@ -52,8 +50,8 @@ interface JsonWriter
     public function write(array $data, bool $formatted): string;
 }
 ```
-UnixCsvWriter.php
-```php
+
+```php title="UnixCsvWriter.php"
 <?php
 
 namespace DesignPatterns\Creational\AbstractFactory;
@@ -66,8 +64,8 @@ class UnixCsvWriter implements CsvWriter
     }
 }
 ```
-UnixJsonWriter.php
-```php
+
+```php title="UnixJsonWriter.php"
 <?php
 
 namespace DesignPatterns\Creational\AbstractFactory;
@@ -86,8 +84,8 @@ class UnixJsonWriter implements JsonWriter
     }
 }
 ```
-UnixWriterFactory.php
-```php
+
+```php title="UnixWriterFactory.php"
 <?php
 
 namespace DesignPatterns\Creational\AbstractFactory;
@@ -105,8 +103,8 @@ class UnixWriterFactory implements WriterFactory
     }
 }
 ```
-WinCsvWriter.php
-```php
+
+```php title="WinCsvWriter.php"
 <?php
 
 namespace DesignPatterns\Creational\AbstractFactory;
@@ -119,8 +117,8 @@ class WinCsvWriter implements CsvWriter
     }
 }
 ```
-WinJsonWriter.php
-```php
+
+```php title="WinJsonWriter.php"
 <?php
 
 namespace DesignPatterns\Creational\AbstractFactory;
@@ -139,8 +137,8 @@ class WinJsonWriter implements JsonWriter
     }
 }
 ```
-WinWriterFactory.php
-```php
+
+```php title="WinWriterFactory.php"
 <?php
 
 namespace DesignPatterns\Creational\AbstractFactory;
@@ -161,7 +159,7 @@ class WinWriterFactory implements WriterFactory
 
 ## Тест
 
-```php
+```php title="Tests/AbstractFactoryTest.php"
 <?php
 
 declare(strict_types=1);
