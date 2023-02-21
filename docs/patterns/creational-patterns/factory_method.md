@@ -21,9 +21,7 @@ sidebar_position: 3
 ## Код
 Ви можете знайти цей код на [GitHub](https://github.com/PetroOstapuk/DesignPatternsPHP/tree/main/Creational/FactoryMethod)
 
-Logger.php
-
-```php
+```php title="Logger.php"
 <?php
 
 declare(strict_types=1);
@@ -36,9 +34,7 @@ interface Logger
 }
 ```
 
-StdoutLogger.php
-
-```php
+```php title="StdoutLogger.php"
 <?php
 
 declare(strict_types=1);
@@ -54,9 +50,7 @@ class StdoutLogger implements Logger
 }
 ```
 
-FileLogger.php
-
-```php
+```php title="FileLogger.php"
 <?php
 
 declare(strict_types=1);
@@ -76,9 +70,7 @@ class FileLogger implements Logger
 }
 ```
 
-LoggerFactory.php
-
-```php
+```php title="LoggerFactory.php"
 <?php
 
 declare(strict_types=1);
@@ -92,9 +84,7 @@ interface LoggerFactory
 
 ```
 
-StdoutLoggerFactory.php
-
-```php
+```php title="StdoutLoggerFactory.php"
 <?php
 
 declare(strict_types=1);
@@ -110,9 +100,7 @@ class StdoutLoggerFactory implements LoggerFactory
 }
 ```
 
-FileLoggerFactory.php
-
-```php
+```php title="FileLoggerFactory.php"
 <?php
 
 declare(strict_types=1);
@@ -134,7 +122,7 @@ class FileLoggerFactory implements LoggerFactory
 
 ## Тест
 
-```php
+```php title="Tests/FactoryMethodTest.php"
 <?php
 
 declare(strict_types=1);
