@@ -19,9 +19,7 @@ sidebar_position: 4
 ## Код
 Ви можете знайти цей код на [GitHub](https://github.com/PetroOstapuk/DesignPatternsPHP/tree/main/Creational/Pool)
 
-WorkerPool.php
-
-```php
+```php title="WorkerPool.php"
 <?php
 
 declare(strict_types=1);
@@ -71,10 +69,8 @@ class WorkerPool implements Countable
 }
 ```
 
-StringReverseWorker.php
-
-```php
-?php
+```php title="StringReverseWorker.php"
+<?php
 
 declare(strict_types=1);
 
@@ -91,9 +87,7 @@ class StringReverseWorker
 
 ## Тест
 
-Tests/PoolTest.php
-
-```php
+```php title="Tests/PoolTest.php"
 <?php
 
 declare(strict_types=1);
