@@ -20,9 +20,7 @@ sidebar_position: 5
 ## Код
 Ви можете знайти цей код на [GitHub](https://github.com/PetroOstapuk/DesignPatternsPHP/tree/main/Creational/Prototype)
 
-BookPrototype.php
-
-```php
+```php title="BookPrototype.php"
 <?php
 
 declare(strict_types=1);
@@ -48,9 +46,7 @@ abstract class BookPrototype
 }
 ```
 
-BarBookPrototype.php
-
-```php
+```php title="BarBookPrototype.php"
 <?php
 
 declare(strict_types=1);
@@ -67,9 +63,7 @@ class BarBookPrototype extends BookPrototype
 }
 ```
 
-FooBookPrototype.php
-
-```php
+```php title="FooBookPrototype.php"
 <?php
 
 declare(strict_types=1);
@@ -88,9 +82,7 @@ class FooBookPrototype extends BookPrototype
 
 ## Тест
 
-Tests/PrototypeTest.php
-
-```php
+```php title="Tests/PrototypeTest.php"
 <?php
 
 declare(strict_types=1);
