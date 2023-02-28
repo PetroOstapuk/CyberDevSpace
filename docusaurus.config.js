@@ -92,7 +92,7 @@ const config = {
               },
               {
                 label: 'Чистий код на PHP',
-                to: '/docs/patterns/design-patterns-php',
+                to: '/docs/patterns/clean-code-php',
               },
             ],
           },
