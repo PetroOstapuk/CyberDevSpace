@@ -1,0 +1,8 @@
+{
+  "label": "Додатково",
+  "position": 4,
+  "link": {
+    "type": "generated-index",
+    "description": "Інші патерни на PHP, котрі не увійшли до основних груп"
+  }
+}
