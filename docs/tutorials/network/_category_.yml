@@ -1,0 +1,6 @@
+position: 3
+label: 'Мережі'
+link:
+  type: generated-index
+  title: Мережі
+  slug: network

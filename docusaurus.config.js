@@ -65,12 +65,7 @@ const config = {
           src: 'img/logo.png',
         },
         items: [
-          {
-            type: 'doc',
-            docId: 'bookshelf/technical_books',
-            position: 'left',
-            label: 'Tutorials',
-          },
+          {to: '/docs/category/tutorials', label: 'Tutorials', position: 'left'},
           {to: '/blog', label: 'Блог', position: 'left'},
           {to: '/about-me', label: 'Про автора', position: 'left'},
           {
@@ -84,20 +79,20 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Tutorials',
+            title: 'Посібники',
             items: [
               {
                 label: 'Дизайн патерни на PHP',
-                to: '/docs/patterns/design-patterns-php',
+                to: 'docs/tutorials/programming/patterns/design-patterns-php',
               },
               {
                 label: 'Чистий код на PHP',
-                to: '/docs/clean-code-php',
+                to: '/docs/tutorials/programming/clean-code-php',
               },
             ],
           },
           {
-            title: 'Community',
+            title: 'Спільнота',
             items: [
               {
                 label: 'LinkedIn',

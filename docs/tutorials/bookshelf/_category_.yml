@@ -1,0 +1,6 @@
+position: 1
+label: 'Книжкова полиця'
+link:
+  type: generated-index
+  description: 'Списки технічної, бізнес і літератури по саморозвитку.'
+  slug: bookshelf
