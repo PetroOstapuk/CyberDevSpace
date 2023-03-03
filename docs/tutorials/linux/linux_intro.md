@@ -1,7 +1,7 @@
 ---
 sidebar_position: 2
 sidebar_label: Linux
-slug: linux
+slug: linux-intro
 ---
 
 # Linux
