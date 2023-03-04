@@ -2,7 +2,7 @@
 sidebar_position: 2
 ---
 
-# Репозиторій (Repository)
+# 2. Репозиторій (Repository)
 
 ## Призначення
 

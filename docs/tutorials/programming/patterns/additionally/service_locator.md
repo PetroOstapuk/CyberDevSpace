@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# Локатор Служб (Service Locator)
+# 1. Локатор Служб (Service Locator)
 
 Цей шаблон вважається антипатерном!
 
