@@ -2,7 +2,7 @@
 sidebar_position: 4
 ---
 
-# Перетворювач даних (Data Mapper)
+# 4. Перетворювач даних (Data Mapper)
 
 ## Призначення
 

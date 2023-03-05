@@ -2,7 +2,7 @@
 sidebar_position: 5
 ---
 
-# Прототип (Prototype)
+# 5. Прототип (Prototype)
 
 ## Призначення
 

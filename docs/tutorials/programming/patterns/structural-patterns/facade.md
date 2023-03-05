@@ -2,7 +2,7 @@
 sidebar_position: 7
 ---
 
-# Фасад (Facade)
+# 7. Фасад (Facade)
 
 ## Призначення
 

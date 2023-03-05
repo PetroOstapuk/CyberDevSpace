@@ -2,7 +2,7 @@
 sidebar_position: 11
 ---
 
-# Стратегія (Strategy)
+# 11. Стратегія (Strategy)
 
 ## Термінологія
 

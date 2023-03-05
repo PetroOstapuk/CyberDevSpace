@@ -2,7 +2,7 @@
 sidebar_position: 8
 ---
 
-# Спостерігач (Observer)
+# 8. Спостерігач (Observer)
 
 ## Призначення
 

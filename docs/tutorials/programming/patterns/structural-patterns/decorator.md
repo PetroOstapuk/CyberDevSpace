@@ -2,7 +2,7 @@
 sidebar_position: 5
 ---
 
-# Декоратор (Decorator)
+# 5. Декоратор (Decorator)
 
 ## Призначення
 

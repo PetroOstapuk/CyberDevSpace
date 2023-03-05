@@ -2,7 +2,7 @@
 sidebar_position: 8
 ---
 
-# Статична Фабрика (Static Factory)
+# 8. Статична Фабрика (Static Factory)
 
 ## Призначення
 

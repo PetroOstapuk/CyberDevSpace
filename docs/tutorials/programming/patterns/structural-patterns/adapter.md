@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# Адаптер (Adapter / Wrapper)
+# 1. Адаптер (Adapter / Wrapper)
 
 ## Призначення
 

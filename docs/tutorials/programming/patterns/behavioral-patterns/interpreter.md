@@ -2,7 +2,7 @@
 sidebar_position: 3
 ---
 
-# Інтерпретатор (Interpreter)
+# 3. Інтерпретатор (Interpreter)
 
 ## Призначення
 

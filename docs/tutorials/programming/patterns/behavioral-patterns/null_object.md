@@ -2,7 +2,7 @@
 sidebar_position: 7
 ---
 
-# Null object (Null Object)
+# 7. Null object (Null Object)
 
 ## Призначення
 

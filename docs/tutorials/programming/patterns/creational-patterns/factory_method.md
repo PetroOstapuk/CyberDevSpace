@@ -2,7 +2,7 @@
 sidebar_position: 3
 ---
 
-# Фабричний метод (Factory Method)
+# 3. Фабричний метод (Factory Method)
 
 ## Призначення
 

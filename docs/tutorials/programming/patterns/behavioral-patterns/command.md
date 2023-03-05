@@ -2,7 +2,7 @@
 sidebar_position: 2
 ---
 
-# Команда (Command)
+# 2. Команда (Command)
 
 ## Призначення
 

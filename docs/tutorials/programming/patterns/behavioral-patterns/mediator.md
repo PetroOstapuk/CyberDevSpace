@@ -2,7 +2,7 @@
 sidebar_position: 5
 ---
 
-# Посередник (Mediator)
+# 5. Посередник (Mediator)
 
 ## Призначення
 

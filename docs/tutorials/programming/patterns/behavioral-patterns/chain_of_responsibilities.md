@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# Ланцюжок відповідальностей (Chain Of Responsibilities)
+# 1. Ланцюжок відповідальностей (Chain Of Responsibilities)
 
 ## Призначення
 

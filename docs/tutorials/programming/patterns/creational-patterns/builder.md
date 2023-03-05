@@ -2,7 +2,7 @@
 sidebar_position: 2
 ---
 
-# Будівельник (Builder)
+# 2. Будівельник (Builder)
 
 ## Призначення
 

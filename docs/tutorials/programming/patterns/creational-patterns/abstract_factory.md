@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# Абстрактна фабрика (Abstract Factory)
+# 1. Абстрактна фабрика (Abstract Factory)
 
 ## Призначення
 

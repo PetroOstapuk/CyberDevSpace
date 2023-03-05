@@ -2,7 +2,7 @@
 sidebar_position: 10
 ---
 
-# Стан (State)
+# 10. Стан (State)
 
 ## Призначення
 

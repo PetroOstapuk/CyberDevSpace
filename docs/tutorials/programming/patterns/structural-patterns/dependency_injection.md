@@ -2,7 +2,7 @@
 sidebar_position: 6
 ---
 
-# Впровадження залежності (Dependency Injection)
+# 6. Впровадження залежності (Dependency Injection)
 
 ## Призначення
 

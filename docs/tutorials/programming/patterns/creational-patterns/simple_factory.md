@@ -2,7 +2,7 @@
 sidebar_position: 6
 ---
 
-# Проста Фабрика (Simple Factory)
+# 6. Проста Фабрика (Simple Factory)
 
 ## Призначення
 

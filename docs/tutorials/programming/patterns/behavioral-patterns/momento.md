@@ -2,7 +2,7 @@
 sidebar_position: 6
 ---
 
-# Знімок (Memento)
+# 6. Знімок (Memento)
 
 ## Призначення
 

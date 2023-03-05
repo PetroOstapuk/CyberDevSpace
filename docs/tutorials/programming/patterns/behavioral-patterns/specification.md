@@ -2,7 +2,7 @@
 sidebar_position: 9
 ---
 
-# Специфікація (Specification)
+# 9. Специфікація (Specification)
 
 ## Призначення
 

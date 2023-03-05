@@ -2,7 +2,7 @@
 sidebar_position: 2
 ---
 
-# Міст (Bridge)
+# 2. Міст (Bridge)
 
 ## Призначення
 

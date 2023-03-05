@@ -2,7 +2,7 @@
 sidebar_position: 9
 ---
 
-# Легковаговик (Flyweight)
+# 9. Легковаговик (Flyweight)
 
 ## Призначення
 

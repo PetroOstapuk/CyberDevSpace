@@ -2,7 +2,7 @@
 sidebar_position: 12
 ---
 
-# Шаблонний Метод (Template Method)
+# 12. Шаблонний Метод (Template Method)
 
 ## Призначення
 

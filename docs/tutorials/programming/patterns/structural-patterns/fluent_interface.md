@@ -2,7 +2,7 @@
 sidebar_position: 8
 ---
 
-# Текучий інтерфейс (Fluent Interface)
+# 8. Текучий інтерфейс (Fluent Interface)
 
 ## Призначення
 

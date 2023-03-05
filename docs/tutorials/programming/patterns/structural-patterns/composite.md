@@ -2,7 +2,7 @@
 sidebar_position: 3
 ---
 
-# Компонувальник (Composite)
+# 3. Компонувальник (Composite)
 
 ## Призначення
 
