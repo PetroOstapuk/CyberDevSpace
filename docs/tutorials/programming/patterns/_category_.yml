@@ -1,0 +1,5 @@
+position: 4
+label: 'Дизайн патерни на PHP'
+link:
+  type: doc
+  id: design_patterns_php
