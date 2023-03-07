@@ -1,0 +1,5 @@
+position: 4
+label: 'Додатково'
+link:
+  type: generated-index
+  description: 'Інші патерни на PHP, котрі не увійшли до основних груп'
