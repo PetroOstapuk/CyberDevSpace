@@ -1,0 +1,5 @@
+position: 3
+label: 'Рекомендації щодо стандартів PHP'
+link:
+  type: doc
+  id: php_standards_recommendations
