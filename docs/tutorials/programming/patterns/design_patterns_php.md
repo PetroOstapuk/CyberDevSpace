@@ -1,6 +1,6 @@
 ---
-sidebar_position: 4
-sidebar_label: Дизайн патерни на PHP"
+sidebar_position: 1
+sidebar_label: Дизайн патерни на PHP
 slug: design-patterns-php
 ---
 
