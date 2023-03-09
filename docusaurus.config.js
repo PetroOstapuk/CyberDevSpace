@@ -112,8 +112,8 @@ const config = {
                 to: '/blog',
               },
               {
-                label: 'GitHub',
-                href: 'https://github.com/PetroOstapuk',
+                label: 'Знайшли помилку? Чекаю на GitHub pull request 😈',
+                href: 'https://github.com/PetroOstapuk/CyberDevSpace',
               },
             ],
           },
