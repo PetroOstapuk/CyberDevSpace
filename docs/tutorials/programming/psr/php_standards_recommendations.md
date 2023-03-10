@@ -98,7 +98,7 @@ slug: php-standards-recommendations
         Як вважається, необхідно використовувати такі переклади зазначених ключових слів:
         <br/>
         
-        <b>MUST, REQUIRED, SHALL</b> – Необхідно/ Вимагається/ Повинні,<br/>
+        <b>MUST, REQUIRED, SHALL</b> – Необхідно, Обов'язково/ Вимагається/ Повинні<br/>
         <b>MUST NOT, SHALL NOT</b> – Неприпустимо/ Забороняється,<br/>
         <b>SHOULD, RECOMMENDED</b> - Рекомендується/ Слідує;<br/>
         <b>SHOULD NOT, NOT RECOMMENDED</b> – Не рекомендується/ Не слідує;<br/>
