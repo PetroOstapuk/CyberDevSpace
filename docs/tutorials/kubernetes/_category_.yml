@@ -1,0 +1,5 @@
+position: 6
+label: 'Kubernetes'
+link:
+  type: generated-index
+  description: 'Kubernetes info'
