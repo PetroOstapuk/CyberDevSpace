@@ -18,3 +18,8 @@ sidebar_position: 6
 ## Дискові утиліти
 
 ![](./images/linux_disk_usage.png)
+
+## Systemd
+
+![](./images/systemd.png)
+![](./images/systemd_second.png)
