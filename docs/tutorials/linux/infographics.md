@@ -27,3 +27,7 @@ sidebar_position: 6
 ## Структура файлової системи Linux
 
 ![](./images/linux_%20file_%20system_%20structure.png)
+
+## Linux proc
+
+![](./images/linux_proc.png)
