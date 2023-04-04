@@ -22,6 +22,7 @@ sidebar_position: 6
 ## Systemd
 
 ![](./images/systemd.png)
+
 ![](./images/systemd_second.png)
 
 ## Структура файлової системи Linux
