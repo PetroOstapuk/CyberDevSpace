@@ -77,7 +77,7 @@ mydestination = $myhostname, localhost.$mydomain, $mydomain
 sudo systemctl restart postfix
 ```
 
-Перевіряємо відправку пошти з командної стрічки, замінивши your_email_address на Вашу поштову скриньку:
+Перевіряємо відсилання пошти з командної стрічки, замінивши your_email_address на Вашу поштову скриньку:
 
 ```shell
 echo "This is the body of the email" | mail -s "This is the subject line" your_email_address
@@ -111,7 +111,7 @@ root:          your_email_address
 sudo newaliases
 ```
 
-Перевіряємо відправку системної пошти з командної стрічки, замінивши your_email_address на Вашу поштову скриньку:
+Перевіряємо відсилання системної пошти з командної стрічки, замінивши your_email_address на Вашу поштову скриньку:
 
 ```shell
 echo "This is the body of the email" | mail -s "This is the subject line" root
