@@ -203,9 +203,7 @@ function isShopOpen(string $day): bool
         return false;
     }
 
-    $openingDays = [
-        'friday', 'saturday', 'sunday'
-    ];
+    $openingDays = ['friday', 'saturday', 'sunday'];
 
     return in_array(strtolower($day), $openingDays, true);
 }
@@ -470,14 +468,13 @@ $name = $_GET['name'] ?? $_POST['name'] ?? 'nobody';
 
 ### Аргументи функції (ідеально 2 або менше)
 
-Limiting the amount of function parameters is incredibly important because it makes
-testing your function easier. Having more than three leads to a combinatorial explosion
-where you have to test tons of different cases with each separate argument.
+Обмеження кількості параметрів функції є неймовірно важливим, оскільки це полегшує тестування вашої функції. 
+Наявність понад трьох параметрів призводить до комбінаторного вибуху коли вам доведеться тестувати безліч різних 
+випадків з кожним окремим аргументом.
 
-Zero arguments is the ideal case. One or two arguments is ok, and three should be avoided.
-Anything more than that should be consolidated. Usually, if you have more than two
-arguments then your function is trying to do too much. In cases where it's not, most
-of the time a higher-level object will suffice as an argument.
+Нуль аргументів - ідеальний випадок. Один або два аргументи - нормально, а трьох краще уникати. Все, що більше, має бути 
+консолідованим. Зазвичай, якщо у вас понад двох аргументів, то ваша функція намагається зробити занадто багато. 
+У випадках, коли це не так, здебільшого випадків, як аргумент достатньо об'єкта вищого рівня.
 
 **Погано:**
 
@@ -1128,7 +1125,7 @@ function combine(int $val1, int $val2): int
 
 ### Вилучіть мертвий код
 
-Мертвий код так само погано, як і дубльований код. Немає причин залишати його в своєму кодові. Якщо він 
+Мертвий код так само погано, як і дубльований код. Немає причин залишати його у своєму кодові. Якщо він 
 не використовується, видаліть його! Він все ще буде збережений в історії версій, якщо вам все ще потрібно буде 
 до нього звернутися.
 
@@ -1304,10 +1301,6 @@ echo 'Employee name: '.$employee->getName(); // Employee name: John Doe
 успадкування і багато добрих причин для використання композиції. Основна мета цього правила полягає в тому, 
 що якщо ваш розум інстинктивно налаштований на успадкування, спробуйте подумати, чи може композиція краще описати вашу 
 проблему. У деяких випадках вона може бути кращим рішенням.
-
-You might be wondering then, "when should I use inheritance?" It
-depends on your problem at hand, but this is a decent list of when inheritance
-makes more sense than composition:
 
 Ви, можливо, ставите собі питання: "коли ж мені варто використовувати наслідування?" Це залежить від вашої конкретної 
 проблеми, але ось список випадків, коли наслідування є більш доцільним, ніж композиція:
@@ -2171,4 +2164,3 @@ function showList(array $employees): void
 ```
 
 **[⬆ повернутись до змісту](#зміст)**
-
