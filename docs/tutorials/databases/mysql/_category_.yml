@@ -1,0 +1,6 @@
+position: 1
+label: 'MySQL'
+link:
+  type: generated-index
+  title: MySQL
+  slug: mysql
