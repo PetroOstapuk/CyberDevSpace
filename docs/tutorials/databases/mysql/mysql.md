@@ -1,5 +1,6 @@
 ---
 sidebar_position: 1
+slug: base-commands
 ---
 
 # Базові команди Mysql
