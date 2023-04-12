@@ -1,0 +1,6 @@
+position: 2
+label: 'Redis'
+link:
+  type: generated-index
+  title: Redis
+  slug: redis
