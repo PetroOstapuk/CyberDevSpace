@@ -1,8 +1,9 @@
 ---
 sidebar_position: 1
+slug: base-info
 ---
 
-# Redis
+# Redis base info
 
 Більшість людей думають, що Redis призначений лише для кешування.
 
