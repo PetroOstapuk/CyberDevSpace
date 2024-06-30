@@ -12,7 +12,7 @@ sidebar_position: 2
 
 Якщо у вас є складне дерево успадкування для об'єктів, логічно мати складне дерево успадкування і їх будівельників.
 
-Примітка: Будівельники можуть мати текучий інтерфейс<https://uk.wikipedia.org/wiki/Fluent_interface>, наприклад, будівельник mock у PHPUnit.
+Примітка: Будівельники можуть мати текучий інтерфейс[https://uk.wikipedia.org/wiki/Fluent_interface](https://uk.wikipedia.org/wiki/Fluent_interface), наприклад, будівельник mock у PHPUnit.
 
 ## Приклади
 
