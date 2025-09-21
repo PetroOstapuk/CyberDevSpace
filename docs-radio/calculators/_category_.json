@@ -1,0 +1,9 @@
+{
+  "label": "Калькулятори",
+  "position": 1,
+  "link": {
+    "type": "generated-index",
+    "description": "Калькулятори.",
+    "slug": "calculators"
+  }
+}
