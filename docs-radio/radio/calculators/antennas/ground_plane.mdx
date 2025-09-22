@@ -1,0 +1,58 @@
+---
+sidebar_position: 1
+slug: /calculators/antennas/ground_plane
+title: Калькулятор антени Ground Plane
+description: Онлайн калькулятор антени Ground Plane — обчислення довжини випромінювача та радіальних елементів.
+keywords:
+  - калькулятор антени Ground Plane
+  - Ground Plane antenna
+  - розрахунок антени
+  - вертикальна антена
+---
+import Calculator from '@site/src/components/gp_calculator';
+import Head from '@docusaurus/Head';
+import AntennaImage from '@site/static/img/ground_plane.png';
+
+<Head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script type="application/ld+json">
+  {`
+    {
+      "@context": "https://schema.org",
+      "@type": "WebApplication",
+      "name": "Калькулятор антени Ground Plane",
+      "url": "https://cyberdev.space/radio/calculators/antennas/ground_plane",
+      "applicationCategory": "CalculatorApplication",
+      "operatingSystem": "Any",
+      "description": "Онлайн калькулятор антени Ground Plane — розрахунок довжини випромінювача та радіальних елементів.",
+      "inLanguage": "uk",
+      "publisher": {
+        "@type": "Organization",
+        "name": "CyberDevSpace",
+        "url": "https://cyberdev.space"
+      }
+    }
+  `}
+  </script>
+    {/* OpenGraph / Twitter */}
+    <meta property="og:title" content="Калькулятор антени Ground Plane" />
+    <meta property="og:description" content="Розрахунок антени Ground Plane — довжини випромінювача та радіальних елементів." />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://cyberdev.space/radio/calculators/antennas/ground_plane" />
+    <meta property="og:image" content={AntennaImage} />
+    <meta name="twitter:card" content="summary_large_image" />
+</Head>
+
+# Калькулятор антени Ground Plane
+
+:::info[Інформація]
+Цей калькулятор використовується для визначення довжини кожного елемента антени Ground Plane.
+Сюди входить вертикальний випромінювач та радіальні елементи.
+:::
+
+<Calculator />
+
+:::warning[Примітки:]
+- Довжина хвилі розраховується за стандартною формулою.
+- Для розрахунку використовується чвертьхвильова конфігурація.
+:::
