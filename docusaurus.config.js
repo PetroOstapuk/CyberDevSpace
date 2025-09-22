@@ -78,7 +78,7 @@ const config = {
                         type: 'docSidebar',
                         sidebarId: 'radioSidebar',
                         docsPluginId: 'radio',
-                        label: 'Радіо',
+                        label: 'Радіо - UR3PKI',
                         position: 'left',
                     },
                     {to: '/about-me', label: 'Про автора', position: 'left'},
